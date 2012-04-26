@@ -1,0 +1,345 @@
+@charset "utf-8";
+body  {
+  font: 100% Verdana, Arial, Helvetica, sans-serif;
+  background: #303030;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #000000;
+  font-size: 11px;
+}
+.tichyblog #container {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 10px;
+  text-align: left;
+  border-style: none;
+
+}
+.tichyblog #header {
+  background: #c9c9c9;
+  padding: 0 10px 0 20px;
+
+  -moz-box-shadow: 5px 5px 5px #222222;
+  -webkit-box-shadow: 5px 5px 5px #222222;
+  box-shadow: 5px 5px 5px #222222;
+
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+.tichyblog #header h1 {
+  margin: 0;
+  padding: 10px 0;
+}
+.tichyblog #footer {
+  padding: 0 10px 0 20px;
+  background:#F0F0F0;
+
+  -moz-box-shadow: 5px 5px 5px #222222;
+  -webkit-box-shadow: 5px 5px 5px #222222;
+  box-shadow: 5px 5px 5px #222222;
+
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+.tichyblog #footer p {
+  margin: 0;
+  padding: 10px 0;
+}
+.fltrt{
+  float: right;
+  margin-left: 8px;
+}
+.fltlft{
+  float: left;
+  margin-right: 8px;
+}
+.clearfloat{
+  clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+
+.tichyblog #errContent{
+  margin:  15px 5px 10px 230px;
+  padding: 0 20px 0;
+  background:#dd4444;
+
+  border: 1px solid #ee0000;
+
+  -moz-box-shadow: 5px 5px 5px #222222;
+  -webkit-box-shadow: 5px 5px 5px #222222;
+  box-shadow: 5px 5px 5px #222222;
+
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.tichyblog #mainContent{
+  margin:  15px 5px 20px 230px;
+  padding: 0 20px 10px;
+  background:#F0F0F0;
+
+  border: 1px solid #c9c9c9;
+
+  -moz-box-shadow: 5px 5px 5px #222222;
+  -webkit-box-shadow: 5px 5px 5px #222222;
+  box-shadow: 5px 5px 5px #222222;
+
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.tichyblog #mainContent a{
+  color:#738f14;
+}
+
+.tichyblog #menu {
+  float: left;
+
+  width: 200px;
+  background: #738f14;
+  margin: 15px 10px 15px 5px;
+  padding: 4px 1px 4px 1px;
+  border-top: 6px solid #839f24;
+  border-left: 1px solid #839f24;
+  border-right: 1px solid #839f24;
+  border-bottom: 1px solid #839f24;
+
+  color: #F0F0F0;
+
+  -moz-box-shadow: 5px 5px 5px #222222;
+  -webkit-box-shadow: 5px 5px 5px #222222;
+  box-shadow: 5px 5px 5px #222222;
+
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+
+  vertical-align: top;
+}
+
+.tichyblog #menu ul{
+  margin:0 0 0 0;
+  padding:0 0 0 0;
+  white-space:nowrap;
+}
+
+.tichyblog #menu li{
+  display: block;
+  vertical-align: middle;
+  background-color:#9dbb36;
+  text-align: left;
+
+  margin-top:1px;
+  margin-bottom:1px;
+
+  height: 23px;
+
+  border-left: 5px solid #CBD97A;
+  border-top:0px;
+}
+
+
+.menuitem li
+{
+}
+
+.submenuitem
+{
+  margin-left:20px;
+  list-style-type:none;
+}
+
+.menuitem li a:link, .menuitem li a:visited
+{
+  text-decoration:none;
+  padding-left: 4px;
+  display:block;
+  height:23px;
+  line-height:23px;
+}
+
+.menuitem li a:hover
+{
+  background-color:#B7D550;
+}
+
+.menuitem li img
+{
+  border:0;
+}
+
+
+#homebtn
+{
+  display:block;
+  float:left;
+  border:0;
+  width:190px;
+}
+
+#rssbtn
+{
+  display:block;
+  float:right;
+  margin-left:-28px;
+}
+
+#rsspic
+{
+  margin:4px 4px;
+}
+
+#delbtn
+{
+  width:10px;
+  display:block;
+  float:left;
+}
+
+#editbtn
+{
+  width:15px;
+  display:block;
+  float:left;
+}
+
+.active{
+  font-weight:bold;
+}
+
+.offline{
+  color:#606060;
+}
+
+.online{
+  color:#f0f0f0;
+}
+
+.path{
+  background-color:#c9c9c9;
+  padding:0 0 0 0;
+  margin:0 -20px 0 -20px;
+  display:block;
+  height:14px;
+}
+.editor{
+  width:100%;
+  height:700px;
+}
+
+.pic{
+  width:120px;
+  vertical-align:top;
+}
+
+.pic img{
+  border-style:none;
+}
+
+.pic a{
+}
+
+.desc{
+  width:380px;
+  vertical-align:top;
+}
+
+.desc h2{
+  margin-top:2px;
+  margin-bottom:2px;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+  margin: .67em 0;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: .83em 0;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  font-weight: bold;
+  margin: 1em 0;
+}
+
+h4 {
+  display: block;
+  font-weight: bold;
+  margin: 1.33em 0;
+}
+
+h5 {
+  display: block;
+  font-size: 0.83em;
+  font-weight: bold;
+  margin: 1.67em 0;
+}
+
+h6 {
+  display: block;
+  font-size: 0.67em;
+  font-weight: bold;
+  margin: 2.33em 0;
+}
+
+.tichyblog #logview a{
+  color:#000000;
+  text-decoration:none;
+}
+
+.bar {
+  background-color:#738f14;
+  border:1px solid #839f24;
+  line-height:14px;
+}
+
+.barlabel {
+  margin:-16px 0 0 0;
+  line-height:16px;
+  white-space:pre;
+  vertical-align: middle;
+}
+
+
+.vbars {
+  background-color:#999999;
+  border:1px solid #444444;
+  height:200px;
+  position: relative;
+}
+
+.vcontainer {
+  margin:0 0 0 8px;
+  float:left;
+  
+  position: relative;
+  height:100%;
+  width:13px;
+
+  background-color:#999999;
+}
+
+.vbar {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width:13px;
+  vertical-align:center;
+  background-color:#00ff00;
+  text-align:bottom;
+}

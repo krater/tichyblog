@@ -1,0 +1,58 @@
+@charset "utf-8";
+body  {
+  font: 100% Verdana, Arial, Helvetica, sans-serif;
+  color: #000000;
+  font-size: 11px;
+  text-align: left;
+  background:#F0F0F0;
+}
+
+a:link{
+  color:#738f14;
+}
+
+a:visited{
+  color:#738f14;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+  margin: .67em 0;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: .83em 0;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  font-weight: bold;
+  margin: 1em 0;
+}
+
+h4 {
+  display: block;
+  font-weight: bold;
+  margin: 1.33em 0;
+}
+
+h5 {
+  display: block;
+  font-size: 0.83em;
+  font-weight: bold;
+  margin: 1.67em 0;
+}
+
+h6 {
+  display: block;
+  font-size: 0.67em;
+  font-weight: bold;
+  margin: 2.33em 0;
+}
+
